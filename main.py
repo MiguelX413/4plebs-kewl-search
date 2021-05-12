@@ -1,8 +1,9 @@
 #!/usr/bin/python
 import logging
+from typing import Optional, Union
+
 import pandas as pd
 from progressbar import progressbar
-from typing import Optional, Union
 
 logging.basicConfig(
     filename="4plebs-kewl-search.log",
